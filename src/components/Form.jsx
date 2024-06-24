@@ -73,7 +73,7 @@ const Form = () => {
             email: '',
             city: '',
         });
-        console.log(mobileNo)
+        setMobileNo(null);
     }
 
     const handleReset = (e) => {
@@ -85,6 +85,7 @@ const Form = () => {
             email: '',
             city: '',
         });
+        setMobileNo(null)
     }
 
     const handleChange = (e) => {
